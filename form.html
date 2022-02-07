@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Order From Delicious Fish</title>
+<link rel="stylesheet" type="text/css" href="C:\Users\HP\Documents\Web Progrmming Assignment\CSS\style.css">
+<style>
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+textarea {
+  width: 50%;
+  height: 100px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+</style>
+</head>
+
+<body>
+<header id="navbar">
+	<div class="container">
+		<span id="brand-name">
+<img src="C:\Users\HP\Documents\Web Progrmming Assignment\Images\hm.png" style="width:8%; opacity: 10 ">Delicious Fish</span>
+		<ul class="links">
+			<a href="home.html">
+				<li>Home</li>
+			</a>
+			<a href="menu.html">
+				<li>Menu</li>
+			</a>
+			<a href="about.html">
+				<li>About</li>
+			</a>
+			<a href="contactus.html">
+				<li>ContactUs</li>
+			</a>
+		</ul>
+	</div>
+</header>
+<h1 style="text-align:center;">Place Your Order Here</h1>
+<div>
+  <form action="https://www.w3schools.com/action_page.php">
+    <label for="fname">First Name:</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name.."><br>
+
+    <label for="lname">Last Name:</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br>
+
+    <label for="PNumber">Phone Number:</label>
+    <input type="text" id="Pnumber" name="PhoneNumber" placeholder="Your phone number.."><br>
+
+    <p>Address:</p>
+
+    <form>
+    <textarea></textarea>
+</form>
+
+
+    <label for="items">Type of Fish:</label>
+    <select id="items" name="items">
+      <option value="select">Select</option>
+      <option value="mackerel">Mackerel</option>
+      <option value="alaskapollock">Alaska Pollock</option>
+      <option value="tilapia">Tilapia</option>
+      <option value="catfish">Catfish</option>
+      <option value="Bluewhiting">Blue Whiting</option>
+      <option value="herrings">Harrings(Shawa)</option>
+      <option value="whitecroacker">White Croacker</option>
+      <option value="hake">Hake</option>
+      <option value="horsemackerel">Horse Mackerel</option>
+      <option value="pargo">Pargo</option>
+      <option value="redcroacker">Red Croacker</option>
+      <option value="argentinasilus">Argentina Silus</option>
+      <option value="dentex">Dentex</option>
+    </select><br>
+
+    <label for="kilo">Kilo:</label>
+    <select id="kilo" name="kilo">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+  </select><br>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>
